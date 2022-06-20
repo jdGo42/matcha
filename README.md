@@ -28,4 +28,6 @@ $ npm install -g create-react-app
 
 $ npx create-react-app .
 
-note for pgsql <-> [https://golangdocs.com/golang-postgresql-example]
+note for pgsql <-> [https://golangdocs.com/golang-postgresql-example] - kick
+
+better note for pgsql login / signup / signin <-> [https://dev.to/mdfaizan7/create-a-server-with-postgresql-in-go-part-1-3-of-go-authentication-series-3127]
