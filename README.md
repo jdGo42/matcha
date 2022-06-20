@@ -27,3 +27,5 @@ $ cd ../frontend
 $ npm install -g create-react-app
 
 $ npx create-react-app .
+
+note for pgsql <-> [https://golangdocs.com/golang-postgresql-example]
