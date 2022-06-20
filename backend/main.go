@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "net/http"
+)
+
+func setupRoutes() {
+    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+        fmt.Fprintf(w, "Matcha Server")
+    })
+}
 
 func main() {
-	fmt.Println("Matcha v0.00")
+    setupRoutes()
+    http.ListenAndServe(":8080", nil)
 }
